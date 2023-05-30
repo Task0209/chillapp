@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet-webapi
-          image: task0209/chillapp
+          image: task0209/chillapp:v1
           imagePullPolicy: Never
           resources:
             limits:
