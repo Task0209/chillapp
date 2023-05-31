@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet-webapi
-          image: task0209/chillapp:latest
+          image: task0209/chillapp
           resources:
             limits:
               memory: "128Mi"
