@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet-webapi
-          image: 192.168.0.53:8082/chillapp:1
+          image: 192.168.0.53:8082/chatgpt:1
           resources:
             limits:
               memory: "128Mi"
