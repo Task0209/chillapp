@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet-webapi
-          image: chillapp-docker:v1
+          image: task0209/demoapp:v1
           resources:
             limits:
               memory: "128Mi"
