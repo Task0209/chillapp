@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet-webapi
-          image: task0209/demoapp:v1
+          image: task0209/demoapp:latest
           resources:
             limits:
               memory: "128Mi"
